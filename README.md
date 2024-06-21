@@ -30,14 +30,14 @@ This project demonstrates text summarization using Pegasus and T5 models on the 
 ## Data Visualization
 
 - Visualizations include bar plots for topic distribution and histograms for article and summary lengths.
-- Scatter plots may be used to show relationships between article length and summary length.
+- Scatter plots, TSNE plots, Bar plots are used to show relationships between article length and summary length and unique words and frequency of words.
 
 ## Thought Process Behind Choosing Pegasus
 
 ### Rationale
 
 - **Pegasus Model:** Chosen for its strong performance in abstractive summarization tasks.
-- **Pretrained Model:** Leverages transfer learning to fine-tune on a large corpus of data, capturing semantic nuances and language structure.
-- **Comparison with T5:** Considered T5 for its versatility in text generation tasks, but Pegasus was preferred due to its specific design for summarization.
-- **Fine-Tuning Strategy:** Adopted a fine-tuning approach to adapt the general summarization capabilities of Pegasus to the specific domain of BBC News articles.
+- **Pretrained Model:** Leverages transfer learning to fine-tune on a large corpus of data, capturing semantic meanings and language structure.
+- **Comparison with T5:** Considered T5 for its versatility in text generation tasks, but Pegasus was preferred due to its specific design for summarization and for long form text.
+- **Fine-Tuning Strategy:** Adopted a fine-tuning approach to adapt the general summarization capabilities of Pegasus to BBC News articles.
 
