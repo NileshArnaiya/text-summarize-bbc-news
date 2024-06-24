@@ -1,3 +1,4 @@
+# Try it out - https://huggingface.co/dalle2/pegasus-multi_news-NewsSummarization_BBC
 # Text Summarization using Pegasus and T5 on BBC News Summary Dataset
 
 This project demonstrates text summarization using Pegasus and T5 models on the BBC News Summary dataset. Below are instructions to run the provided Jupyter Notebook file (`text-summarization-v2.ipynb`) and details on the project's data analysis, visualization, and the rationale behind choosing Pegasus for fine-tuning.
